@@ -1,0 +1,35 @@
+idan0610
+305681132
+Idan Refaeli
+
+I discussed the exercise with: Dan Kurfa, Omer Ganon, Eyel Cohen.
+
+=============================
+=  README for ex1  =
+=============================
+
+
+usage: python3.4 HelloTurtle.py
+
+==================
+=  Description:  =
+==================
+1. Hello.py - Prints "Hello World" on screen
+2. HelloTurtle.py - Prints some shapes and text on screen
+3. ex1.txt - Contains answers to some questions from exercise
+4. README.txt - This file
+
+=============================
+=  List of submitted files: =
+=============================
+
+README		This file
+Hello.py
+HelloTurtle.py
+ex1.txt
+
+======================
+=  Special Comments  =
+======================
+
+None

@@ -1,0 +1,50 @@
+Part C Answers:
+1. A lot of information about 'goto', of 'turtle' module, including parameters
+   and what the function does.
+2. A message about a call to 'goto' function, but it didn't worked becuase I
+   have not entered the required parameter.
+3. Draws a line from inital coordinates (0,0) to (100,100).
+
+Part D Answers:
+1. mkdir - Creates a new directory on the current location. After the command
+           we will enter its name.
+   rmdir - Removes the directory with the name we enter after the command.
+           Works only if the directory is empty.
+   cd - Change the location from the current to that we entered after the
+        command. The location is a relative path.
+   cd ~ - Change the location to our Home directory.
+   cd ~/ - Change the location to that we enter after the command.
+           The lcoation is an absolute path.
+2. '.' marks the current directory.
+   '..' marks the parent directory, means the directory that the current is
+   inside of it.
+   We can use these both methods to move to another location or to
+   open/remove/tansfer/change files on another location.
+3. Relative path is a path relative to the current location. For example,
+   'ex1/' means there is a directory named 'ex1' in the current location.
+   Absolute path is a location relative to the Home directory. For example,
+   '~/safe/intro2cs/ex1/' means there is directory named 'ex1' in the location
+   specified from the Home directory.
+4. '*' marks all the files. 'ls *' lists all the files, 'cp *' copy all the
+   files. We can mention the an extension, like *.py.
+   '???' marks a general characters. The shell will replace the '???' with the
+   appropriate characters. 'ls Hello.??' will list the file 'Hello' with two
+   characters on extension (like Hello.py). 'cp Hello.??' will copy the file
+   'Hello' with two charactes on extension. 
+5. '&' is entered after a command for starting a program (like 'gedit &').
+   If we forget to mention the '&', we can type Ctrl+z to suspend the pragram
+   from running, and then enter the command bg to tell the program to continue
+   run on background.
+6. We can use the command 'ls -l' and enter the name of the file after the
+   command to see its permissions.
+7. diff - show the difference between to file. For example
+          'diff Hello.py HelloTurtle.py' shows us all the differences between 
+          these to files from beginning to end.
+   cat - prints the content of a file. For example 'cat Hello.py' prints the
+         content of the file 'Hello.py'
+   grep - search for some text in a file. For example 'grep Hello Hello.py'
+          prints the lines where the word 'Hello' in mentioned on 'Hello.py'
+   cal - prints a calendar with the the date of today highlighted.
+   wc - prints the number of lines, words and the size of a file in bytes.
+        For example, 'wc Hello.py' prints '9 34 357 Hello.py' means there are
+        9 lines and 34 words in Hello.py and its size is 357 bytes.
